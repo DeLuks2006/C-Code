@@ -6,7 +6,7 @@ int main() {
 
   nwhite = nother = 0;
   for (i = 0; i < 10; ++i) {
-    ndigit[i] = 0;
+    ndigit[i] = 0; // so the array is 10 zeros
   }
 
   while ((c = getchar()) != EOF) {
